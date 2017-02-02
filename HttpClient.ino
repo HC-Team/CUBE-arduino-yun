@@ -73,7 +73,7 @@ void loop() {
    
   // Make a HTTP request:
   np(0,1);
-  client.get("http://wot.buldakoff.de/cube.txt");
+  client.get("http://start.humanconnection.org/cube.php");
 
   // if there are incoming bytes available
   // from the server, read them and print them:
